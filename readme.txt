@@ -1,7 +1,6 @@
 Title : Text to HTML converter
-Tamojit Chatterjee(153050002)
-Pijush Chakraborty(153050015)
-contribution breakage : 50%-50%
+Tamojit Chatterjee
+Pijush Chakraborty
 
 this is a general code converter framework. that takes as input a hyper text file and generates an html file. We have also generated latex using this framework to show that this framework can be used to convert to lot of other types of languages.
 
