@@ -1,0 +1,11 @@
+#report
+	title="A Latex document"
+	name="Powered by htxt"
+	#chapter
+		name=Introduction
+		#section
+			name=Sub Introduction
+			This is just to demonstarte the expressive power of hypertext.
+			Following is an image included in the file
+			#image
+				source="img"

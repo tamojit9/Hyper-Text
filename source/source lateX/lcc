@@ -1,0 +1,11 @@
+gawk -f genX.awk syntax.config > generatedFlex.l 2> null 
+make > null
+if [ $# -lt 1 ]; then
+	echo "Usage: ./hcc [script] [outputfile]"
+elif [ $# -eq 1 ]; then	
+	./generatedFlex $1.htxt > $1.latex
+	pdflatex $1.latex > null
+elif [ $# -eq 2 ]; then	
+	./generatedFlex $1.htxt > $2.latex
+	pdflatex $2.latex > null
+fi

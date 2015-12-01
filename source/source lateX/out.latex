@@ -1,0 +1,15 @@
+\documentclass{report}
+\usepackage{graphicx}
+\begin{document}
+\title{"A Latex document"}
+\author{"Powered by htxt"}
+\maketitle
+\chapter{Introduction}
+\section{Sub Introduction}
+This is just to demonstarte the expressive power of hypertext.\\
+Following is an image included in the file\\
+\begin{figure}
+\includegraphics[]{"img"}
+\end{figure}\\
+\\
+\end{document}
